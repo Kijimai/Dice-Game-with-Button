@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -26,6 +31,11 @@ p {
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
+}
+.player1Score,
+.player2Score {
+  display: inline-block;
+  color: orange;
 }
 
 img {
